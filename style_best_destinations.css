@@ -1,0 +1,259 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("Photos/37.jpg");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.box_white {
+  background-color: rgba(255, 255, 255, 0.438);
+  height: 30vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 130px;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+}
+
+.box_white_2 {
+  background-color: rgba(255, 255, 255, 0.438);
+  /* height: 45vh; */
+  width: 70vw;
+  margin: auto;
+  margin-top: 100px;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+  padding: 0.1% 9%;
+  line-height: 350%;
+  margin-bottom: 2%;
+}
+
+.box_grey_3 {
+  background-color: rgba(0, 0, 0, 0.281);
+  height: auto;
+  width: 65vw;
+  margin: auto;
+  margin-top: 100px;
+  box-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.61);
+  padding: 4% 9%;
+  /* line-height:; */
+  margin-bottom: 4%;
+}
+
+
+
+.navbar {
+  /* position: relative; */
+  /* position: fixed; */
+  /* overflow: hidden; */
+  /* width: 100vw; */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* margin-top: 0px; */
+  /* top:0; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar-nav {
+  /* height: 80px; */
+  width: 100vw;
+}
+
+.nav-item {
+  height: 100%;
+  width: 25%;
+}
+
+.nav-link {
+  margin: auto;
+  vertical-align: middle;
+  /* margin-top: 50%; */
+  /* top: -50%; */
+  height: 100%;
+}
+
+.navbar a {
+  height: 100%;
+  /* box-sizing: border-box; */
+  color: black;
+  text-align: center;
+  border-left: 0.5px solid gray;
+  /* border-right: 0.5px solid gray;  */
+  font-family: 'brusher';
+  font-size: 30px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  color: rgba(255, 255, 255, 0.795);
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5); */
+}
+
+
+.navbar2 {
+  /* position: fixed; */
+  overflow: hidden;
+  width: 63vw;
+  margin-top: 15px;
+  margin-left: 0%;
+  top: 0;
+  background: transparent;
+  align-content: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.navbar2 a {
+  background-color: rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  width: 19.5vw;
+  border: 4px solid black;
+  font-family: 'brusher';
+  font-size: 35px;
+  border-radius: 10px;
+  margin: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+}
+
+.navbar2 a:hover {
+  background-color: rgba(0, 0, 0, 0.103);
+  color: white;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5);
+}
+
+.style {
+  font-family: abril;
+  font-size: 6vh;
+  color: black;
+}
+
+
+
+
+a:link {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+  font-family: brusher;
+  
+}
+a:visited {
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  text-decoration: none;
+  font-family: brusher;
+  
+}
+a:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  color: rgba(255, 255, 255, 0.651);
+  text-decoration: none ;
+  font-family: brusher;
+  
+}
+
+.card{
+  background-color:rgba(255, 255, 255, 0.534);
+  color: black;
+  font-family: "champagne";
+  
+}
+.card-title{
+  font-family: "champagne";
+  text-align: center;
+  font-size: 4.4vh;
+  font-weight: bolder;
+}
+
+
+@font-face {
+  font-family: "brusher";
+  src: url("fonts/Brusher.ttf");
+}
+
+@font-face {
+  font-family: "rainbow_universe";
+  src: url("fonts/Rainbow\ Universe.ttf");
+}
+
+@font-face {
+  font-family: "alfia";
+  src: url("fonts/AlfiaPersonalUse.ttf")
+}
+
+@font-face {
+  font-family: "abril";
+  src: url("fonts/AbrilFatface-Regular.ttf")
+}
+
+@font-face {
+  font-family: "champagne";
+  src: url("fonts/Champagne\ &\ Limousines.ttf")
+}
+
+@font-face {
+  font-family: "dreamy";
+  src: url("fonts/Dreameyes.ttf")
+}
+
+
+@font-face {
+  font-family: "belly";
+  src: url("fonts/DirlyBellyRegular-VGVqB.ttf")
+}
+
+
+@font-face {
+  font-family: "falina";
+  src: url("fonts/Falina\ Sweet.otf")
+}
+
+@font-face {
+  font-family: "salsa";
+  src: url("fonts/Mango\ Salsa\ -\ Personal\ Use.ttf")
+}
+
+
+@font-face {
+  font-family: "heysweet";
+  src: url("fonts/Heysweety-7B1jB.ttf")
+}
+
+@font-face {
+  font-family: "netherland";
+  src: url("fonts/Netherland\ Cracker\ -\ Personal\ Use.ttf")
+}
+
+@font-face {
+  font-family: "hello";
+  src: url("fonts/Hello.ttf")
+}
+
+@font-face {
+  font-family: "goldie";
+  src: url("fonts/Goldie\ Rainbow.ttf")
+}
+
+@font-face {
+  font-family: "simple";
+  src: url("fonts/Simple\ script.otf")
+}

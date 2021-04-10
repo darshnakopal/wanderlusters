@@ -1,0 +1,134 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-image: url("Photos/Wanderlusters_plain.png");
+  background-size: cover;
+  height: 100vh;
+  background-attachment: fixed;
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.438);
+}
+
+.box_white {
+  height: 30vh;
+  width: 70vw;
+  margin: auto;
+  margin-top: 130px;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+  padding: 10%;
+
+}
+
+.box_white_2 {
+  background-color: rgba(255, 255, 255, 0.438);
+  /* height: 45vh; */
+  width: 70vw;
+  margin: auto;
+  margin-top: 90px;
+  align-self: center;
+  border-radius: 10px;
+  box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+  padding: 4% 9%;
+  line-height: 40 px;
+  margin-bottom: 16px;
+
+}
+
+.navbar {
+  /* position: relative; */
+  /* position: fixed; */
+  /* overflow: hidden; */
+  /* width: 100vw; */
+  background-color: rgba(255, 255, 255, 0.5);
+  /* margin-top: 0px; */
+  /* top:0; */
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar-nav {
+  /* height: 80px; */
+  width: 100vw;
+}
+
+.nav-item {
+  height: 100%;
+  width: 25%;
+}
+
+.nav-link {
+  margin: auto;
+  vertical-align: middle;
+  /* margin-top: 50%; */
+  /* top: -50%; */
+  height: 100%;
+}
+
+.navbar a {
+  height: 100%;
+  /* box-sizing: border-box; */
+  color: black;
+  text-align: center;
+  border-left: 0.5px solid gray;
+  /* border-right: 0.5px solid gray;  */
+  font-family: 'brusher';
+  font-size: 30px;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.171);
+  color: white;
+  /* border-radius: 10px; */
+  /* box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5); */
+}
+
+@font-face {
+  font-family: "brusher";
+  src: url("fonts/Brusher.ttf");
+}
+
+@font-face {
+  font-family: "rainbow_universe";
+  src: url("fonts/Rainbow\ Universe.ttf");
+}
+
+@font-face {
+  font-family: "alfia";
+  src: url("fonts/AlfiaPersonalUse.ttf")
+}
+
+@font-face {
+  font-family: "abril";
+  src: url("fonts/AbrilFatface-Regular.ttf")
+}
+
+@font-face {
+  font-family: "dreamy";
+  src: url("fonts/Dreameyes.ttf")
+}
+
+
+@font-face {
+  font-family: "belly";
+  src: url("fonts/DirlyBellyRegular-VGVqB.ttf")
+}
+
+
+@font-face {
+  font-family: "falina";
+  src: url("fonts/Falina\ Sweet.otf")
+}
+
+
+@font-face {
+  font-family: "heysweet";
+  src: url("fonts/Heysweety-7B1jB.ttf")
+}

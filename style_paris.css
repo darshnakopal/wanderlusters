@@ -1,0 +1,215 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("Photos_Best_Destinations/2.jpg");
+    background-size: cover;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.box_white {
+    background-color: rgba(255, 255, 255, 0.438);
+    width: 70vw;
+    margin: auto;
+    margin-top: 130px;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+    padding: 10%;
+}
+
+.box_white_2 {
+    background-color: rgba(255, 255, 255, 0.438);
+    /* height: 45vh; */
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    align-self: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+    padding: 0.1% 9%;
+    line-height: 350%;
+    margin-bottom: 2%;
+}
+
+.box_white_3 {
+    background-color: rgba(255, 255, 255, 0.438);
+    /* height: 30vh; */
+    width: 70vw;
+    margin: auto;
+    margin-top: 100px;
+    align-self: center;
+    box-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5);
+    padding: 0.1% 9%;
+    /* line-height:; */
+    margin-bottom: 4%;
+}
+
+
+.navbar {
+    /* position: relative; */
+    /* position: fixed; */
+    /* overflow: hidden; */
+    /* width: 100vw; */
+    background-color: rgba(255, 255, 255, 0.5);
+    /* margin-top: 0px; */
+    /* top:0; */
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar-nav {
+    /* height: 80px; */
+    width: 100vw;
+}
+
+.nav-item {
+    height: 100%;
+    width: 25%;
+}
+
+.nav-link {
+    margin: auto;
+    vertical-align: middle;
+    /* margin-top: 50%; */
+    /* top: -50%; */
+    height: 100%;
+}
+
+.navbar a {
+    height: 100%;
+    /* box-sizing: border-box; */
+    color: black;
+    text-align: center;
+    border-left: 0.5px solid gray;
+    /* border-right: 0.5px solid gray;  */
+    font-family: 'brusher';
+    font-size: 30px;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 2px 30px rgba(0, 0, 0, 0.5); */
+}
+
+.navbar a:hover {
+    background-color: rgba(0, 0, 0, 0.171);
+    color: white;
+    /* border-radius: 10px; */
+    /* box-shadow: 0px 2px 30px rgba(255, 255, 255, 0.5); */
+}
+
+
+
+
+
+.photo_box {
+    border: 4px solid black;
+    width: 30%;
+    padding: 0%;
+    float: left;
+
+}
+
+.div1 {
+    width: 50%;
+    display: inline-block;
+}
+
+.div2 {
+    width: 50%;
+    display: inline-block;
+}
+
+@font-face {
+    font-family: "brusher";
+    src: url("fonts/Brusher.ttf");
+}
+
+@font-face {
+    font-family: "champagne";
+    src: url("fonts/Champagne\ &\ Limousines.ttf");
+}
+
+@font-face {
+    font-family: "made";
+    src: url("fonts/MADE\ Bon\ Voyage\ Regular\ PERSONAL\ USE.otf");
+}
+
+@font-face {
+    font-family: "aubrey";
+    src: url("fonts/AUBREY1__.TTF");
+}
+@font-face {
+    font-family: "dream";
+    src: url("fonts/dream\ orphans.ttf");
+}
+
+@font-face {
+    font-family: "rainbow_universe";
+    src: url("fonts/Rainbow\ Universe.ttf");
+}
+
+@font-face {
+    font-family: "alfia";
+    src: url("fonts/AlfiaPersonalUse.ttf")
+}
+
+@font-face {
+    font-family: "abril";
+    src: url("fonts/AbrilFatface-Regular.ttf")
+}
+
+@font-face {
+    font-family: "dreamy";
+    src: url("fonts/Dreameyes.ttf")
+}
+
+
+@font-face {
+    font-family: "belly";
+    src: url("fonts/DirlyBellyRegular-VGVqB.ttf")
+}
+
+
+@font-face {
+    font-family: "falina";
+    src: url("fonts/Falina\ Sweet.otf")
+}
+
+@font-face {
+    font-family: "namira";
+    src: url("fonts/Namira-4BZ3p.ttf")
+}
+
+@font-face {
+    font-family: "beauty";
+
+    src: url("fonts/Beauty\ Mermaid\ -\ Personal\ Use.ttf")
+}
+
+@font-face {
+    font-family: "heysweet";
+    src: url("fonts/Heysweety-7B1jB.ttf")
+}
+
+@font-face {
+    font-family: "netherland";
+    src: url("fonts/Netherland\ Cracker\ -\ Personal\ Use.ttf")
+}
+
+@font-face {
+    font-family: "hello";
+    src: url("fonts/Hello.ttf")
+}
+
+@font-face {
+    font-family: "goldie";
+    src: url("fonts/Goldie\ Rainbow.ttf")
+}
+
+@font-face {
+    font-family: "simple";
+    src: url("fonts/Simple\ script.otf")
+}
